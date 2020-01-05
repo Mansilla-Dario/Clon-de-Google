@@ -4,17 +4,15 @@ body{
     font-family: Arial, sans-serif;
     font-size: 13px;
 }
-.header{
-  
+nav{  
     display:grid;
     grid-auto-flow: column;
     justify-content: right;
     align-items: center;
     gap: 15px;
-    margin: 16px 30px 0px;
-   
+    margin: 16px 30px 0px;   
 }
-.header a{
+nav a{
     color: rgba(0,0,0,0.87);
 }
 .imagenes{
@@ -56,7 +54,6 @@ body{
     align-items: center;
     margin-top: 25px;
     position: relative;
-    
 }
 .lupa{
     grid-area: lupa;
@@ -73,7 +70,6 @@ body{
     -webkit-box-shadow: -17px 10px 39px -20px rgba(0,0,0,0.46);
 -moz-box-shadow: -17px 10px 39px -20px rgba(0,0,0,0.46);
 box-shadow: -17px 10px 39px -20px rgba(0,0,0,0.46);
-
 }
 .caja{
     grid-area: caja;
@@ -83,9 +79,8 @@ box-shadow: -17px 10px 39px -20px rgba(0,0,0,0.46);
     height: 100%;
     position: relative;
     -webkit-box-shadow: 0px 25px 39px -20px rgba(0,0,0,0.46);
--moz-box-shadow: 0px 25px 39px -20px rgba(0,0,0,0.46);
-box-shadow: 0px 25px 39px -20px rgba(0,0,0,0.46);
-
+    -moz-box-shadow: 0px 25px 39px -20px rgba(0,0,0,0.46);
+    box-shadow: 0px 25px 39px -20px rgba(0,0,0,0.46);
 }
 .micro{
     grid-area: micro;
@@ -100,19 +95,15 @@ box-shadow: 0px 25px 39px -20px rgba(0,0,0,0.46);
     -webkit-border-radius: 0px 100px 100px 0px;
     border-radius: 0px 100px 100px 0px;
     -webkit-box-shadow: 17px 10px 39px -20px rgba(0,0,0,0.46);
--moz-box-shadow: 17px 10px 39px -20px rgba(0,0,0,0.46);
-box-shadow: 17px 10px 39px -20px rgba(0,0,0,0.46);
-
-    
+    -moz-box-shadow: 17px 10px 39px -20px rgba(0,0,0,0.46);
+    box-shadow: 17px 10px 39px -20px rgba(0,0,0,0.46);    
 }
 .busqueda{
     border: none;
     width: 100%;
-    height: 100%;
-    
+    height: 100%;    
 }
 input.busqueda:focus {
-
     outline:none ;
     outline-width: 0 ;
     box-shadow: none;
@@ -127,7 +118,6 @@ input.busqueda:focus {
     gap: 16px;
     margin-top: 55px;
 }
-
 .buscar, .suerte{
    color: #5F6368;
    font-size: 14px;
@@ -143,7 +133,6 @@ input.busqueda:focus {
     text-decoration: none;
     display: inline-block;
 }
-
 .creditos{
     display: grid;
     justify-content: center;
@@ -157,7 +146,6 @@ input.busqueda:focus {
 .footer{
     position: absolute;
     bottom: 0;
-
 }
 .rows{
     display: grid;
@@ -178,7 +166,6 @@ input.busqueda:focus {
 .region{
     font-size: 15px;
     border:  #e4e4e4 solid 1px;
-
 }
 .menu-footer{
     display: flex;
@@ -198,14 +185,7 @@ input.busqueda:focus {
 .menu-footer a:hover{
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
+/* +++++++++Fuentes: +++++++++++++++++++++ */
 @font-face {
     font-family: 'icomoon';
     src:  url('../fonts/icomoon.eot?129p9x');
@@ -231,8 +211,7 @@ input.busqueda:focus {
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  
+  }  
   .icon-app:before {
     content: "\e900";
     font-size: 23px;
@@ -249,8 +228,7 @@ input.busqueda:focus {
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  }
-  
+  }  
   [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
@@ -264,8 +242,7 @@ input.busqueda:focus {
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  
+  }  
   .icon-search:before {
     content: "\e908";
     opacity: .35;
